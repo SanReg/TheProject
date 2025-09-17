@@ -1,0 +1,27 @@
+{
+  "name": "theproject-api",
+  "version": "1.0.0",
+  "description": "A contact manager made with node and express powered by Mongoose",
+  "homepage": "https://github.com/SanReg/TheProject#readme",
+  "bugs": {
+    "url": "https://github.com/SanReg/TheProject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanReg/TheProject.git"
+  },
+  "license": "MIT",
+  "author": "SanReg",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
